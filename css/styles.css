@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+/* Stiluri texte */
+.h1-text {
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.h2-text {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.h3-text {
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.menu-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.button-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bold-text {
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.light-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.slogan-text {
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.regular-small-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Stiluri butoane */
+
+.button {
+  display: flex;
+  padding: 12px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+
+/* Stiluri culori */
+
+.dark-green-bg {
+  background-color: #031a08;
+}
+
+.dark-green {
+  color: #031a08;
+}
+
+.dark-bg {
+  background-color: #000000;
+}
+
+.dark {
+  color: #000000;
+}
+
+.accent-bg {
+  background-color: #f31414;
+}
+
+.accent {
+  color: #f31414;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.dark-gray-bg {
+  background-color: #5e5454;
+}
+
+.dark-gray {
+  color: #5e5454;
+}
+
+.light-gray-bg {
+  background-color: #e5e5e5;
+}
+
+.light-gray {
+  color: #e5e5e5;
+}
+
+.gray-linear {
+  background: var(
+    --gray-linear,
+    linear-gradient(277deg, #eef0f6 11.06%, #c3c3c3 88.41%)
+  );
+}
+
+.dark-linear {
+  background: var(
+    --dark-linear,
+    linear-gradient(134deg, #222 0%, #363636 98.24%)
+  );
+}
+
+.yellow-linear {
+  background: var(
+    --yellow-linear,
+    linear-gradient(134deg, #fb0 0%, #fcd15b 98.24%)
+  );
+}
+
+.red-linear {
+  background: var(
+    --red-linear,
+    linear-gradient(134deg, #f42c37 0%, #fc4854 98.24%)
+  );
+}
+
+.green-linear {
+  background: var(
+    --green-linear,
+    linear-gradient(277deg, #0dc059 11.06%, #2bd071 88.41%)
+  );
+}
+
+.blue-linear {
+  background: var(
+    --blue-linear,
+    linear-gradient(277deg, #4c9aff 11.06%, #157afe 88.41%)
+  );
+}
+
+.lightblue-linear {
+  background: var(
+    --lightblue-linear,
+    linear-gradient(277deg, #7bb1f6 11.06%, #61a5ff 88.41%)
+  );
+}
