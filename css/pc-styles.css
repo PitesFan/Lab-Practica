@@ -3,31 +3,49 @@ body {
 }
 
 /* Header styles */
-
 header {
   width: 100%;
   padding: 0 54px;
   margin: 48px 0;
-  justify-content: space-between;
-  align-items: center;
   display: flex;
-  flex-direction: row;
-}
-
-header nav {
-  justify-self: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 header nav ul {
-  gap: 24px;
+  gap: 30px;
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: center; /*Centrare ul*/
+}
+
+header nav ul li {
+  width: 125px;
+  height: 50px;
+  text-align: center;
+  position: relative;
 }
 
 header nav ul li a {
-  text-decoration: none;
+  color: #000000;
+  transition: all 0.45s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header nav ul li:hover {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  padding-bottom: 10px;
+  animation: line 1s;
+}
+
+header nav ul li:hover a {
+  color: #f31414;
 }
 
 header div {
@@ -74,10 +92,10 @@ main section div a {
 
 .hero-image {
   width: 710px;
-  height: 444px;
+  height: 460px;
   flex-shrink: 0;
   position: absolute;
-  top: 6rem;
+  top: 7rem;
   right: 3rem;
 }
 
@@ -88,6 +106,8 @@ main section div a {
   grid-template-columns: 64px 1fr 64px;
   width: 100%;
   align-items: flex-start;
+  margin-top: 90px;
+  row-gap: 32px;
 }
 
 .product-overview-section-row {
@@ -100,17 +120,167 @@ main section div a {
 }
 
 .product-overview-card-small {
-  max-width: 274px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 24px;
+  height: 260px;
+  width: 270px;
 }
 
 .product-overview-card-big {
-  max-width: 580px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 24px;
+  height: 260px;
+  width: 540px;
+}
+
+.product-overview-card-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 4px;
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.product-overview-image-1 {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.product-overview-image-2 {
+  width: 240px;
+  height: 100px;
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+
+.product-overview-image-3 {
+  width: 300px;
+  height: 250px;
+  transform: rotate(16deg);
+  position: absolute;
+  top: 4px;
+  right: 20px;
+}
+
+.product-overview-image-4 {
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+
+.product-overview-image-5 {
+  width: 190px;
+  height: 140px;
+  position: absolute;
+  top: 6px;
+  right: 4px;
+}
+
+.product-overview-image-6 {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+/* Customer-advantages styles */
+
+.customer-advantages-section {
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  width: 100%;
+  align-items: flex-start;
+  margin-top: 90px;
+}
+
+.customer-advantages-cards {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+
+.customer-advantages-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-items: center;
+  gap: 16px;
+  max-width: 270px;
+}
+
+.customer-advantages-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+/* Main-banner styles */
+
+.main-banner-section {
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.main-banner-bg {
+  position: relative;
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  padding: 36px;
+  border-radius: 24px;
+  justify-content: space-between;
+}
+
+.main-banner-image {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-banner-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 200px;
+}
+
+.main-banner-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 240px;
+  margin-right: 40px;
+}
+
+.main-banner-offer-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
