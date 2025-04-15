@@ -92,7 +92,7 @@ main section div a {
 
 .hero-image {
   width: 710px;
-  height: 460px;
+  height: 500px;
   flex-shrink: 0;
   position: absolute;
   top: 7rem;
@@ -266,7 +266,7 @@ main section div a {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  max-width: 200px;
+  max-width: 500px;
 }
 
 .main-banner-offer {
@@ -274,7 +274,7 @@ main section div a {
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
-  max-width: 240px;
+  max-width: 350px;
   margin-right: 40px;
 }
 
@@ -283,4 +283,69 @@ main section div a {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+}
+
+/* Footer styles */
+
+footer {
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  width: 100%;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.footer-bg {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 44px;
+  border-radius: 24px;
+  row-gap: 16px;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+}
+
+.footer-left-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  align-items: end;
+}
+
+.footer-right-info {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.footer-right-info-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.footer-right-links {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
 }
