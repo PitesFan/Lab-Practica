@@ -110,6 +110,17 @@ a {
   right: 0;
 }
 
+/* Animatie imagini */
+
+.circle img {
+  transition: 1s ease;
+}
+
+.circle img:hover {
+  border-radius: 50%;
+  transition: 1s ease;
+}
+
 /* Stiluri texte */
 .h1-text {
   font-family: Inter;

@@ -423,3 +423,28 @@ footer {
   justify-content: space-between;
   gap: 16px;
 }
+
+/* About-Us-cards styles */
+
+.section-404 {
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  width: 100%;
+}
+
+.content-404 {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.img-404-1 {
+  width: 200px;
+}
+
+.img-404-2 {
+  width: 900px;
+}
