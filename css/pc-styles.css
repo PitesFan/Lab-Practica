@@ -349,3 +349,77 @@ footer {
   flex-direction: row;
   gap: 12px;
 }
+
+/* Title-banner styles */
+
+.tile-banner-section {
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.tile-banner-content {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  border-radius: 24px;
+}
+
+/* Welcome styles */
+
+.welcome-section {
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.welcome-content {
+  grid-column: 2/3;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 32px;
+}
+
+.welcome-img {
+  width: 650px;
+}
+
+/* About-Us-cards styles */
+
+.aboutUs-cards-section {
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.aboutUs-cards {
+  grid-column: 2/3;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 32px;
+}
+
+.aboutUs-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: start;
+  padding: 32px;
+  border-radius: 24px;
+  max-width: 350px;
+}
+
+.aboutUs-card-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
