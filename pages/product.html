@@ -52,38 +52,51 @@
       </div>
     </header>
     <main>
-      <!-- Title-banner section -->
-      <section class="tile-banner-section">
-        <div class="tile-banner-content dark-gray-bg">
-          <h1 class="h1-text white hover-underline">Produse</h1>
-        </div>
-      </section>
-
-      <!-- Products-section section -->
-      <section class="products-section">
-        <div class="products-section-content">
-          <div class="products-content-row">
-            <div class="product-category">
-              <p class="button-text dark">Categorii</p>
-              <img src="../images/arrow-right.svg" alt="" />
-            </div>
-            <div class="product-cards">
-              <div class="product-card dark-gray-bg">
-                <div class="product-card-image light-gray-bg">
-                  <img src="" alt="" />
+      <!-- Product-page section -->
+      <section class="product-page-section">
+        <div class="product-page-content light-gray-bg">
+          <div class="product-page-view">
+            <h2 class="h2-text dark" id="product-name">name</h2>
+            <div class="product-view-content">
+              <div class="product-view-image white-bg">
+                <img id="product-image" src="" alt="" />
+              </div>
+              <div class="product-view-description dark-gray-bg">
+                <h3 class="h3-text accent" id="product-price">price</h3>
+                <button
+                  type="submit"
+                  href=""
+                  class="button button-text white accent-bg"
+                >
+                  <span>Cumpără acum</span>
+                </button>
+                <div class="cashback-content">
+                  <p class="button-text white">Cashback</p>
+                  <p class="button-text white" id="cashback">price</p>
                 </div>
-                <div class="product-card-description">
-                  <p id="product-name" class="button-text white"</p>
-                  <div class="product-cashback">
-                    <p class="regular-small-text light-gray">Cashback</p>
-                    <div class="green-linear cashback" id="cashback ">
-                      <p class="regular-small-text dark-green"></p>
-                    </div>
-                  </div>
-                  <div class="product-price-cart">
-                    <p class="button-text white" id="product-price"></p>
-                    <img src="../images/basket-card.svg" alt="" />
-                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-page-features">
+            <h2 class="h2-text dark">Specificații</h2>
+            <div class="product-page-features-content dark-gray-bg">
+              <h3 class="h3-text white">General</h3>
+              <div class="product-page-features-list">
+                <div class="product-page-feature">
+                  <p class="light-text dark-green">Brand</p>
+                  <p class="menu-text light-gray" id="brand">brand</p>
+                </div>
+                <div class="product-page-feature">
+                  <p class="light-text dark-green">Culoare</p>
+                  <p class="menu-text light-gray" id="color">brand</p>
+                </div>
+                <div class="product-page-feature">
+                  <p class="light-text dark-green">Greutate</p>
+                  <p class="menu-text light-gray" id="weight">brand</p>
+                </div>
+                <div class="product-page-feature">
+                  <p class="light-text dark-green">Model</p>
+                  <p class="menu-text light-gray" id="model">brand</p>
                 </div>
               </div>
             </div>
@@ -146,6 +159,6 @@
       </div>
     </footer>
 
-    <script src="../js/products.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
