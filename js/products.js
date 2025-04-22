@@ -15,8 +15,9 @@ function displayProducts(products) {
   productContainer.innerHTML = "";
   productContainer.style.display = "grid";
   productContainer.style.gridTemplateColumns = "repeat(5, 1fr)";
-  productContainer.style.gap = "20px";
+  productContainer.style.gap = "32px";
 
+  // Create protuct-cards
   products.forEach((product) => {
     const card = document.createElement("div");
     card.classList.add("product-card", "dark-gray-bg");
@@ -97,7 +98,7 @@ function renderCartPage() {
     return;
   }
 
-  // Afișează titlurile o singură dată
+  // Titles
   const headerRow = document.createElement("div");
   headerRow.classList.add("shopping-cart-row", "header");
   headerRow.innerHTML = `
@@ -115,6 +116,7 @@ function renderCartPage() {
 
   let totalCartPrice = 0;
 
+  // Create cards for cart
   cartData.forEach((cartItem) => {
     const productRow = document.createElement("div");
     productRow.classList.add("shopping-cart-row", "product");
@@ -142,7 +144,7 @@ function renderCartPage() {
     cartItemsContainer.appendChild(productRow);
   });
 
-  // Afișează prețul total final o singură dată
+  // Final price
   const pricesContainer = document.createElement("div");
   pricesContainer.classList.add("shopping-cart-container-product-prices");
   pricesContainer.innerHTML = `
@@ -157,7 +159,7 @@ function renderCartPage() {
     `;
   cartItemsContainer.appendChild(pricesContainer);
 
-  // Adăugăm event listenerii pentru butoanele de incrementare și decrementare DUPĂ ce le-am creat
+  // Inr Dec buttons
   document.querySelectorAll(".dec-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       const id = parseInt(btn.dataset.id);
@@ -178,10 +180,10 @@ function updateQuantity(id, change) {
   if (productIndex !== -1) {
     cart[productIndex].quantity += change;
     if (cart[productIndex].quantity < 1) {
-      cart.splice(productIndex, 1); // Elimină produsul dacă cantitatea devine 0
+      cart.splice(productIndex, 1); // Delete product if qt = 0
     }
     localStorage.setItem("cart", JSON.stringify(cart));
-    renderCartPage(); // Re-render the cart page to reflect changes
+    renderCartPage(); // reflect changes
     updateCartCounter();
   }
 }

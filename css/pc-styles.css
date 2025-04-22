@@ -79,6 +79,14 @@ header div a {
   right: 20%;
 }
 
+.nav-toggle {
+  display: none;
+}
+
+.icon-navbar-phone {
+  display: none;
+}
+
 /* Hero-section styles */
 
 .hero-section {
