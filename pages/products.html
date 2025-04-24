@@ -12,149 +12,153 @@
   </head>
 
   <body>
-    <!-- Header -->
-    <header>
-      <div>
-        <a href="../index.html"><img src="../images/logo.svg" alt="" /></a>
-      </div>
-      <div class="center-nav">
-        <nav>
-          <button id="navToggleBtn" class="nav-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </button>
-          <ul id="navLinks" class="nav-links">
-            <li><a class="menu-text dark" href="../index.html">Acasă</a></li>
-            <li>
-              <a class="menu-text dark" href="products.html">Produse</a>
-            </li>
-            <li>
-              <a class="menu-text dark" href="about.html">Despre noi</a>
-            </li>
-            <li><a class="menu-text dark" href="blog.html">Blog</a></li>
-            <li>
-              <a class="menu-text dark" href="contact.html">Contact</a>
-            </li>
-            <li class="icon-navbar-phone">
-              <a href="cart.html "
-                ><div class="icon-cart">
-                  <img class="dark" src="../images/basket.svg" alt="" /><span
-                    class="red-linear menu-text dark"
-                    >0</span
-                  >
-                </div></a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div>
-        <a href="/pages/cart.html "
-          ><div class="icon-cart">
-            <img class="dark" src="images/basket.svg" alt="" /><span
-              class="red-linear menu-text dark"
-              >0</span
-            >
-          </div></a
-        >
-      </div>
-    </header>
-
-    <main>
-      <!-- Title-banner section -->
-      <section class="tile-banner-section">
-        <div class="tile-banner-content dark-gray-bg">
-          <h1 class="h1-text white hover-underline">Produse</h1>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div>
+          <a href="../index.html"><img src="../images/logo.svg" alt="" /></a>
         </div>
-      </section>
+        <div class="center-nav">
+          <nav>
+            <button id="navToggleBtn" class="nav-toggle">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </button>
+            <ul id="navLinks" class="nav-links">
+              <li><a class="menu-text dark" href="../index.html">Acasă</a></li>
+              <li>
+                <a class="menu-text dark" href="products.html">Produse</a>
+              </li>
+              <li>
+                <a class="menu-text dark" href="about.html">Despre noi</a>
+              </li>
+              <li><a class="menu-text dark" href="blog.html">Blog</a></li>
+              <li>
+                <a class="menu-text dark" href="contact.html">Contact</a>
+              </li>
+              <li class="icon-navbar-phone">
+                <a href="cart.html "
+                  ><div class="icon-cart">
+                    <img class="dark" src="../images/basket.svg" alt="" /><span
+                      class="red-linear menu-text dark"
+                      >0</span
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <a href="/pages/cart.html "
+            ><div class="icon-cart">
+              <img class="dark" src="images/basket.svg" alt="" /><span
+                class="red-linear menu-text dark"
+                >0</span
+              >
+            </div></a
+          >
+        </div>
+      </header>
 
-      <!-- Products-section section -->
-      <section class="products-section">
-        <div class="products-section-content">
-          <div class="products-content-row">
-            <div class="product-category">
-              <p class="button-text dark">Categorii</p>
-              <img src="../images/arrow-right.svg" alt="" />
-            </div>
-            <div class="product-cards">
-              <div class="product-card dark-gray-bg">
-                <div class="product-card-image light-gray-bg">
-                  <img src="" alt="" />
-                </div>
-                <div class="product-card-description">
-                  <p id="product-name" class="button-text white"></p>
-                  <div class="product-cashback">
-                    <p class="regular-small-text light-gray">Cashback</p>
-                    <div class="green-linear cashback" id="cashback ">
-                      <p class="regular-small-text dark-green"></p>
+      <main>
+        <!-- Title-banner section -->
+        <section class="tile-banner-section">
+          <div class="tile-banner-content dark-gray-bg">
+            <h1 class="h1-text white hover-underline">Produse</h1>
+          </div>
+        </section>
+
+        <!-- Products-section section -->
+        <section class="products-section">
+          <div class="products-section-content">
+            <div class="products-content-row">
+              <div class="product-category">
+                <p class="button-text dark">Categorii</p>
+                <img src="../images/arrow-right.svg" alt="" />
+              </div>
+              <div class="product-cards">
+                <div class="product-card dark-gray-bg">
+                  <div class="product-card-image light-gray-bg">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="product-card-description">
+                    <p id="product-name" class="button-text white"></p>
+                    <div class="product-cashback">
+                      <p class="regular-small-text light-gray">Cashback</p>
+                      <div class="green-linear cashback" id="cashback ">
+                        <p class="regular-small-text dark-green"></p>
+                      </div>
+                    </div>
+                    <div class="product-price-cart">
+                      <p class="button-text white" id="product-price"></p>
+                      <img src="../images/basket-card.svg" alt="" />
                     </div>
                   </div>
-                  <div class="product-price-cart">
-                    <p class="button-text white" id="product-price"></p>
-                    <img src="../images/basket-card.svg" alt="" />
-                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer>
-      <div class="footer-bg gray-linear">
-        <div class="footer-content">
-          <div class="footer-left">
-            <div class="footer-left-content">
-              <a href="../index.html"
-                ><img src="../images/logo.svg" alt=""
-              /></a>
-              <p class="menu-text dark-gray">
-                Un loc unde tehnologia și inovația se întâlnesc pentru a vă
-                echipa pentru orice aventură digitală
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-bg gray-linear">
+          <div class="footer-content">
+            <div class="footer-left">
+              <div class="footer-left-content">
+                <a href="../index.html"
+                  ><img src="../images/logo.svg" alt=""
+                /></a>
+                <p class="menu-text dark-gray">
+                  Un loc unde tehnologia și inovația se întâlnesc pentru a vă
+                  echipa pentru orice aventură digitală
+                </p>
+              </div>
+              <p class="light-text dark-gray">
+                © IT World 2025 Toate drepturile rezervate
               </p>
             </div>
-            <p class="light-text dark-gray">
-              © IT World 2025 Toate drepturile rezervate
-            </p>
-          </div>
-          <div class="footer-right">
-            <div class="footer-right-info">
-              <div class="footer-right-info-column">
-                <p class="button-text dark">Despre noi</p>
-                <a href="blog.html"><p class="light-text dark-gray">Blog</p></a>
-                <a href="contact.html"
-                  ><p class="light-text dark-gray">Contact</p></a
-                >
+            <div class="footer-right">
+              <div class="footer-right-info">
+                <div class="footer-right-info-column">
+                  <p class="button-text dark">Despre noi</p>
+                  <a href="blog.html"
+                    ><p class="light-text dark-gray">Blog</p></a
+                  >
+                  <a href="contact.html"
+                    ><p class="light-text dark-gray">Contact</p></a
+                  >
+                </div>
+                <div class="footer-right-info-column">
+                  <p class="button-text dark">Informații suplimentare</p>
+                  <a href="policy.html"
+                    ><p class="light-text dark-gray">
+                      Politica de confidențialitate
+                    </p></a
+                  >
+                </div>
               </div>
-              <div class="footer-right-info-column">
-                <p class="button-text dark">Informații suplimentare</p>
-                <a href="policy.html"
-                  ><p class="light-text dark-gray">
-                    Politica de confidențialitate
-                  </p></a
-                >
+              <div class="footer-right-links">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="../images/ion_logo-facebook.svg" alt=""
+                /></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img src="../images/mage_instagram-circle.svg" alt=""
+                /></a>
+                <a href="https://www.youtube.com/" target="_blank"
+                  ><img
+                    src="../images/entypo-social_youtube-with-circle.svg"
+                    alt=""
+                /></a>
               </div>
             </div>
-            <div class="footer-right-links">
-              <a href="https://www.facebook.com/" target="_blank"
-                ><img src="../images/ion_logo-facebook.svg" alt=""
-              /></a>
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img src="../images/mage_instagram-circle.svg" alt=""
-              /></a>
-              <a href="https://www.youtube.com/" target="_blank"
-                ><img
-                  src="../images/entypo-social_youtube-with-circle.svg"
-                  alt=""
-              /></a>
-            </div>
           </div>
+          <p class="dark-green light-text">Made by PitesFan 🐱</p>
         </div>
-        <p class="dark-green light-text">Made by PitesFan 🐱</p>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script src="../js/main.js"></script>
     <script src="../js/products.js"></script>
   </body>

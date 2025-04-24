@@ -12,167 +12,173 @@
   </head>
 
   <body>
-    <!-- Header -->
-    <header>
-      <div>
-        <a href="../index.html"><img src="../images/logo.svg" alt="" /></a>
-      </div>
-      <div class="center-nav">
-        <nav>
-          <button id="navToggleBtn" class="nav-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </button>
-          <ul id="navLinks" class="nav-links">
-            <li><a class="menu-text dark" href="../index.html">Acasă</a></li>
-            <li>
-              <a class="menu-text dark" href="products.html">Produse</a>
-            </li>
-            <li>
-              <a class="menu-text dark" href="about.html">Despre noi</a>
-            </li>
-            <li><a class="menu-text dark" href="blog.html">Blog</a></li>
-            <li>
-              <a class="menu-text dark" href="contact.html">Contact</a>
-            </li>
-            <li class="icon-navbar-phone">
-              <a href="cart.html "
-                ><div class="icon-cart">
-                  <img class="dark" src="../images/basket.svg" alt="" /><span
-                    class="red-linear menu-text dark"
-                    >0</span
-                  >
-                </div></a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div>
-        <a href="/pages/cart.html "
-          ><div class="icon-cart">
-            <img class="dark" src="images/basket.svg" alt="" /><span
-              class="red-linear menu-text dark"
-              >0</span
-            >
-          </div></a
-        >
-      </div>
-    </header>
-    <main>
-      <!-- Shopping-cart section -->
-      <section class="shopping-cart-section">
-        <div class="shopping-cart-content dark-linear">
-          <div class="shopping-cart-container">
-            <h2 class="h2-text white">Coșul de cumpărături</h2>
-            <div class="shopping-cart-container-content gray-linear">
-              <div class="shopping-cart-row header">
-                <div class="product-header">
-                  <p class="menu-text dark-gray">Produs</p>
-                </div>
-                <div class="quantity-header">
-                  <p class="menu-text dark-gray">Cantitate</p>
-                </div>
-                <div class="price-header">
-                  <p class="menu-text dark-gray">Preț total</p>
-                </div>
-              </div>
-              <div class="shopping-cart-row-product">
-                <div class="product-info">
-                  <div class="product-image-container">
-                    <img id="product-image-cart" src="" alt="" />
-                  </div>
-                  <p class="menu-text dark-green" id="product-name"></p>
-                </div>
-                <div class="quantity-info">
-                  <div class="quantity-button white-bg">
-                    <p class="menu-text dark-green dec-btn" data-id="1">-</p>
-                    <p class="menu-text dark-green" id="product-quantity">1</p>
-                    <p class="menu-text dark-green inc-btn" data-id="1">+</p>
-                  </div>
-                </div>
-                <div class="price-info">
-                  <p class="menu-text dark-green" id="product-price"></p>
-                </div>
-              </div>
-              <div class="shopping-cart-container-product-prices">
-                <div class="shopping-cart-product-price">
-                  <p class="light-text dark-gray">Livrare:</p>
-                  <p class="menu-text dark-green">Gratis</p>
-                </div>
-                <div class="shopping-cart-product-price">
-                  <p class="button-text dark-green">Total:</p>
-                  <p class="button-text dark-green" id="total-price"></p>
-                </div>
-              </div>
-            </div>
-            <button
-              type="submit"
-              href=""
-              class="button button-text white accent-bg"
-            >
-              <span>Spre achitare</span>
-            </button>
-          </div>
-          <img src="../images/shopping-cart-img.png" alt="" />
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div>
+          <a href="../index.html"><img src="../images/logo.svg" alt="" /></a>
         </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer>
-      <div class="footer-bg gray-linear">
-        <div class="footer-content">
-          <div class="footer-left">
-            <div class="footer-left-content">
-              <a href="../index.html"
-                ><img src="../images/logo.svg" alt=""
-              /></a>
-              <p class="menu-text dark-gray">
-                Un loc unde tehnologia și inovația se întâlnesc pentru a vă
-                echipa pentru orice aventură digitală
+        <div class="center-nav">
+          <nav>
+            <button id="navToggleBtn" class="nav-toggle">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </button>
+            <ul id="navLinks" class="nav-links">
+              <li><a class="menu-text dark" href="../index.html">Acasă</a></li>
+              <li>
+                <a class="menu-text dark" href="products.html">Produse</a>
+              </li>
+              <li>
+                <a class="menu-text dark" href="about.html">Despre noi</a>
+              </li>
+              <li><a class="menu-text dark" href="blog.html">Blog</a></li>
+              <li>
+                <a class="menu-text dark" href="contact.html">Contact</a>
+              </li>
+              <li class="icon-navbar-phone">
+                <a href="cart.html "
+                  ><div class="icon-cart">
+                    <img class="dark" src="../images/basket.svg" alt="" /><span
+                      class="red-linear menu-text dark"
+                      >0</span
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <a href="/pages/cart.html "
+            ><div class="icon-cart">
+              <img class="dark" src="images/basket.svg" alt="" /><span
+                class="red-linear menu-text dark"
+                >0</span
+              >
+            </div></a
+          >
+        </div>
+      </header>
+      <main>
+        <!-- Shopping-cart section -->
+        <section class="shopping-cart-section">
+          <div class="shopping-cart-content dark-linear">
+            <div class="shopping-cart-container">
+              <h2 class="h2-text white">Coșul de cumpărături</h2>
+              <div class="shopping-cart-container-content gray-linear">
+                <div class="shopping-cart-row header">
+                  <div class="product-header">
+                    <p class="menu-text dark-gray">Produs</p>
+                  </div>
+                  <div class="quantity-header">
+                    <p class="menu-text dark-gray">Cantitate</p>
+                  </div>
+                  <div class="price-header">
+                    <p class="menu-text dark-gray">Preț total</p>
+                  </div>
+                </div>
+                <div class="shopping-cart-row-product">
+                  <div class="product-info">
+                    <div class="product-image-container">
+                      <img id="product-image-cart" src="" alt="" />
+                    </div>
+                    <p class="menu-text dark-green" id="product-name"></p>
+                  </div>
+                  <div class="quantity-info">
+                    <div class="quantity-button white-bg">
+                      <p class="menu-text dark-green dec-btn" data-id="1">-</p>
+                      <p class="menu-text dark-green" id="product-quantity">
+                        1
+                      </p>
+                      <p class="menu-text dark-green inc-btn" data-id="1">+</p>
+                    </div>
+                  </div>
+                  <div class="price-info">
+                    <p class="menu-text dark-green" id="product-price"></p>
+                  </div>
+                </div>
+                <div class="shopping-cart-container-product-prices">
+                  <div class="shopping-cart-product-price">
+                    <p class="light-text dark-gray">Livrare:</p>
+                    <p class="menu-text dark-green">Gratis</p>
+                  </div>
+                  <div class="shopping-cart-product-price">
+                    <p class="button-text dark-green">Total:</p>
+                    <p class="button-text dark-green" id="total-price"></p>
+                  </div>
+                </div>
+              </div>
+              <button
+                type="submit"
+                href=""
+                class="button button-text white accent-bg"
+              >
+                <span>Spre achitare</span>
+              </button>
+            </div>
+            <img src="../images/shopping-cart-img.png" alt="" />
+          </div>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-bg gray-linear">
+          <div class="footer-content">
+            <div class="footer-left">
+              <div class="footer-left-content">
+                <a href="../index.html"
+                  ><img src="../images/logo.svg" alt=""
+                /></a>
+                <p class="menu-text dark-gray">
+                  Un loc unde tehnologia și inovația se întâlnesc pentru a vă
+                  echipa pentru orice aventură digitală
+                </p>
+              </div>
+              <p class="light-text dark-gray">
+                © IT World 2025 Toate drepturile rezervate
               </p>
             </div>
-            <p class="light-text dark-gray">
-              © IT World 2025 Toate drepturile rezervate
-            </p>
-          </div>
-          <div class="footer-right">
-            <div class="footer-right-info">
-              <div class="footer-right-info-column">
-                <p class="button-text dark">Despre noi</p>
-                <a href="blog.html"><p class="light-text dark-gray">Blog</p></a>
-                <a href="contact.html"
-                  ><p class="light-text dark-gray">Contact</p></a
-                >
+            <div class="footer-right">
+              <div class="footer-right-info">
+                <div class="footer-right-info-column">
+                  <p class="button-text dark">Despre noi</p>
+                  <a href="blog.html"
+                    ><p class="light-text dark-gray">Blog</p></a
+                  >
+                  <a href="contact.html"
+                    ><p class="light-text dark-gray">Contact</p></a
+                  >
+                </div>
+                <div class="footer-right-info-column">
+                  <p class="button-text dark">Informații suplimentare</p>
+                  <a href="policy.html"
+                    ><p class="light-text dark-gray">
+                      Politica de confidențialitate
+                    </p></a
+                  >
+                </div>
               </div>
-              <div class="footer-right-info-column">
-                <p class="button-text dark">Informații suplimentare</p>
-                <a href="policy.html"
-                  ><p class="light-text dark-gray">
-                    Politica de confidențialitate
-                  </p></a
-                >
+              <div class="footer-right-links">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="../images/ion_logo-facebook.svg" alt=""
+                /></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img src="../images/mage_instagram-circle.svg" alt=""
+                /></a>
+                <a href="https://www.youtube.com/" target="_blank"
+                  ><img
+                    src="../images/entypo-social_youtube-with-circle.svg"
+                    alt=""
+                /></a>
               </div>
             </div>
-            <div class="footer-right-links">
-              <a href="https://www.facebook.com/" target="_blank"
-                ><img src="../images/ion_logo-facebook.svg" alt=""
-              /></a>
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img src="../images/mage_instagram-circle.svg" alt=""
-              /></a>
-              <a href="https://www.youtube.com/" target="_blank"
-                ><img
-                  src="../images/entypo-social_youtube-with-circle.svg"
-                  alt=""
-              /></a>
-            </div>
           </div>
+          <p class="dark-green light-text">Made by PitesFan 🐱</p>
         </div>
-        <p class="dark-green light-text">Made by PitesFan 🐱</p>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="../js/main.js"></script>
     <script src="../js/products.js"></script>

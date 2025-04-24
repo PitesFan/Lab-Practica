@@ -247,7 +247,7 @@ main section div a {
   align-items: flex-start;
   align-items: center;
   gap: 16px;
-  max-width: 270px;
+  width: 270px;
 }
 
 .customer-advantages-card-content {
