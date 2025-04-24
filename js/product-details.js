@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (buyNowBtn) {
           buyNowBtn.addEventListener("click", function () {
             const productIdToAdd = parseInt(this.dataset.id);
-            addToCart(productIdToAdd); // Apelăm funcția globală addToCart
+            addToCart(productIdToAdd);
           });
         }
       } else if (productDetailsContainer) {
@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
           '<p class="menu-text dark-gray">A apărut o eroare la încărcarea detaliilor produsului.</p>';
       }
     } finally {
-      // Nu actualizăm contorul aici, lăsăm fereastra principală să facă asta la primirea mesajului
     }
   }
 
@@ -105,14 +104,12 @@ function addToCart(id) {
       }
 
       localStorage.setItem("cart", JSON.stringify(cart));
-      // Trimite un mesaj către fereastra principală pentru a actualiza contorul
       if (window.opener && !window.opener.closed) {
         window.opener.postMessage(
           { action: "updateCartCounter" },
           window.location.origin
         );
       }
-      // Actualizăm și contorul din fereastra curentă (poate fi util vizual)
       const cartCounterElements = document.querySelectorAll(".icon-cart span");
       const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
       cartCounterElements.forEach((element) => {

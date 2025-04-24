@@ -1,4 +1,3 @@
-// cart.js (sau în interiorul tag-ului <script> în cart.html)
 function renderCartPage() {
   const cartData = JSON.parse(localStorage.getItem("cart")) || [];
   const cartItemsContainer = document.querySelector(
@@ -108,8 +107,7 @@ function updateQuantity(id, change) {
     }
     localStorage.setItem("cart", JSON.stringify(cart));
     renderCartPage();
-    updateGlobalCartCounter(); // Actualizăm contorul local
-    // Trimite un mesaj către fereastra principală
+    updateGlobalCartCounter();
     if (window.opener && !window.opener.closed) {
       window.opener.postMessage(
         { action: "updateCartCounter" },
@@ -123,9 +121,8 @@ function removeItemFromCart(id) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   cart = cart.filter((item) => item.id !== id);
   localStorage.setItem("cart", JSON.stringify(cart));
-  renderCartPage(); // Re-randere a coșului pentru a reflecta eliminarea vizual
-  updateGlobalCartCounter(); // Actualizăm contorul global
-  // Trimite un mesaj către fereastra principală (pentru alte pagini deschise)
+  renderCartPage();
+  updateGlobalCartCounter();
   if (window.opener && !window.opener.closed) {
     window.opener.postMessage(
       { action: "updateCartCounter" },
@@ -136,5 +133,5 @@ function removeItemFromCart(id) {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderCartPage();
-  updateGlobalCartCounter(); // Actualizăm contorul la încărcarea paginii
+  updateGlobalCartCounter();
 });

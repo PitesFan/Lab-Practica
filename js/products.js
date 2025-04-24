@@ -1,4 +1,3 @@
-// js/products.js
 const productContainer = document.querySelector(".product-cards");
 
 async function fetchProducts() {
@@ -44,7 +43,7 @@ function displayProducts(products) {
     btn.addEventListener("click", (event) => {
       event.stopPropagation();
       const id = parseInt(btn.dataset.id);
-      addToCart(id); // Apelăm funcția globală addToCart
+      addToCart(id);
     });
   });
 
@@ -84,7 +83,7 @@ function addToCart(id) {
       }
 
       localStorage.setItem("cart", JSON.stringify(cart));
-      updateGlobalCartCounter(); // Actualizăm contorul global
+      updateGlobalCartCounter();
     });
 }
 
