@@ -381,6 +381,8 @@ footer {
   grid-template-columns: 64px 1fr 64px;
   width: 100%;
   margin-top: 48px;
+  align-items: center;
+  justify-content: center;
 }
 
 .tile-banner-content {
@@ -766,11 +768,15 @@ input:focus {
 .products-section {
   width: 100%;
   margin-top: 90px;
+  display: grid;
+  grid-template-columns: 64px 1fr 64px;
 }
 
 .products-section-content {
-  margin-left: 200px;
+  grid-column: 2/3;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   row-gap: 32px;
 }
@@ -780,6 +786,7 @@ input:focus {
   flex-direction: column;
   row-gap: 20px;
   align-items: flex-start;
+  padding: 0 36px;
 }
 
 .product-cards {
@@ -787,6 +794,8 @@ input:focus {
   flex-direction: row;
   gap: 32px;
   align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .product-card {

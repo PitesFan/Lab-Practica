@@ -10,9 +10,6 @@ async function fetchProducts() {
 
 function displayProducts(products) {
   productContainer.innerHTML = "";
-  productContainer.style.display = "grid";
-  productContainer.style.gridTemplateColumns = "repeat(5, 1fr)";
-  productContainer.style.gap = "32px";
 
   products.forEach((product) => {
     const card = document.createElement("div");
