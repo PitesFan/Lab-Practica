@@ -186,8 +186,12 @@
   }
 
   /* About-Us-cards styles */
-
   .aboutUs-cards-section {
+    grid-template-columns: 32px 1fr 32px;
+  }
+
+  /* Blog styles */
+  .blog-articles-section {
     grid-template-columns: 32px 1fr 32px;
   }
 }
@@ -291,5 +295,35 @@
   }
   .aboutUs-card-title p {
     font-size: 24px;
+  }
+
+  /* Blog styles */
+  .blog-articles-section {
+    grid-template-columns: 16px 1fr 16px;
+  }
+
+  .blog-article {
+    max-width: 350px;
+  }
+
+  .blog-article img {
+    width: 270px;
+    border-radius: 20px;
+  }
+
+  .bold-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  /* Blog styles */
+  .blog-article {
+    max-width: 230px;
+  }
+
+  .blog-article img {
+    width: 160px;
+    border-radius: 20px;
   }
 }

@@ -632,6 +632,8 @@ input:focus {
   flex-direction: row;
   gap: 32px;
   justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .blog-article {
