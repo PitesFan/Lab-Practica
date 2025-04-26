@@ -523,6 +523,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   gap: 32px;
+  flex-wrap: wrap;
 }
 
 .contact-form-details {
@@ -536,6 +537,7 @@ footer {
   flex-direction: row;
   gap: 24px;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .lightblue-linear::placeholder {
