@@ -3,6 +3,11 @@
   .main-banner-image {
     left: 45%;
   }
+
+  /* Policy styles */
+  .privacy-img {
+    width: 800px;
+  }
 }
 
 @media (max-width: 1470px) {
@@ -11,6 +16,11 @@
     width: 500px;
     height: 270px;
   }
+
+  /* Policy styles */
+  .privacy-img {
+    width: 700px;
+  }
 }
 
 @media (max-width: 1370px) {
@@ -18,6 +28,11 @@
   .main-banner-image {
     width: 400px;
     height: 210px;
+  }
+
+  /* Policy styles */
+  .privacy-img {
+    width: 600px;
   }
 }
 
@@ -38,6 +53,11 @@
   .customer-advantages-cards {
     flex-wrap: wrap;
   }
+
+  /* Policy styles */
+  .privacy-img {
+    width: 500px;
+  }
 }
 
 @media (max-width: 1260px) {
@@ -45,12 +65,22 @@
   .main-banner-image {
     display: none;
   }
+
+  /* Policy styles */
+  .privacy-img {
+    width: 400px;
+  }
 }
 
 @media (max-width: 1100px) {
   /* Shopping-cart styles */
   .shopping-cart-content img {
     width: 410px;
+  }
+
+  /* Policy styles */
+  .privacy-img {
+    width: 300px;
   }
 }
 
@@ -214,6 +244,15 @@
 
   .shopping-cart-content img {
     width: 350px;
+  }
+
+  /* Policy styles */
+  .policy-section {
+    grid-template-columns: 32px 1fr 32px;
+  }
+
+  .privacy-img {
+    display: none;
   }
 }
 
