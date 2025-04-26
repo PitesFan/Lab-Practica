@@ -1,8 +1,6 @@
 [
   {
     "id": 1,
-    "category": "laptop",
-    "subcategory": "gaming",
     "name": "Lenovo IdeaPad Gaming 3",
     "price": 13490,
     "cashback": 450,
@@ -14,7 +12,6 @@
   },
   {
     "id": 2,
-    "category": "laptop",
     "name": "Lenovo IdeaPad 5",
     "price": 8490,
     "cashback": 255,
@@ -26,8 +23,6 @@
   },
   {
     "id": 3,
-    "category": "laptop",
-    "subcategory": "gaming",
     "name": "Asus ROG Strix G18",
     "price": 40990,
     "cashback": 1410,
@@ -39,8 +34,6 @@
   },
   {
     "id": 4,
-    "category": "laptop",
-    "subcategory": "gaming",
     "name": "Acer AN17-42",
     "price": 41490,
     "cashback": 1245,
@@ -52,8 +45,6 @@
   },
   {
     "id": 5,
-    "category": "laptop",
-    "subcategory": "apple",
     "name": "Apple MacBook Air 13.6 2025",
     "price": 24790,
     "cashback": 744,
@@ -65,8 +56,6 @@
   },
   {
     "id": 6,
-    "category": "pc",
-    "subcategory": "gaming",
     "name": "Calculator de jocuri Navigator",
     "price": 13999,
     "cashback": 450,
@@ -78,8 +67,6 @@
   },
   {
     "id": 7,
-    "category": "pc",
-    "subcategory": "gaming",
     "name": "Calculator de jocuri Navigator",
     "price": 15499,
     "cashback": 525,
@@ -91,8 +78,6 @@
   },
   {
     "id": 8,
-    "category": "pc",
-    "subcategory": "gaming",
     "name": "Calculator de jocuri Navigator",
     "price": 18999,
     "cashback": 450,
@@ -104,8 +89,6 @@
   },
   {
     "id": 9,
-    "category": "pc",
-    "subcategory": "gaming",
     "name": "Calculator de jocuri Navigator",
     "price": 15999,
     "cashback": 540,
@@ -117,8 +100,6 @@
   },
   {
     "id": 10,
-    "category": "pc",
-    "subcategory": "gaming",
     "name": "Calculator de jocuri Navigator",
     "price": 18999,
     "cashback": 470,
@@ -130,8 +111,6 @@
   },
   {
     "id": 11,
-    "category": "phone",
-    "subcategory": "apple",
     "name": "Apple iPhone 13",
     "price": 11999,
     "cashback": 360,
@@ -143,8 +122,6 @@
   },
   {
     "id": 12,
-    "category": "phone",
-    "subcategory": "apple",
     "name": "Apple iPhone 12",
     "price": 9999,
     "cashback": 360,
@@ -156,8 +133,6 @@
   },
   {
     "id": 13,
-    "category": "phone",
-    "subcategory": "apple",
     "name": "Apple iPhone 15",
     "price": 14499,
     "cashback": 525,
@@ -169,7 +144,6 @@
   },
   {
     "id": 14,
-    "category": "phone",
     "name": "Samsung Galaxy S21 FE",
     "price": 12499,
     "cashback": 375,
@@ -181,7 +155,6 @@
   },
   {
     "id": 15,
-    "category": "phone",
     "name": "Xiaomi Redmi Note 13 Pro+",
     "price": 6999,
     "cashback": 210,
@@ -193,7 +166,6 @@
   },
   {
     "id": 16,
-    "category": "tablet",
     "name": "Tabletă Lenovo Tab M10",
     "price": 3290,
     "cashback": 99,
@@ -205,7 +177,6 @@
   },
   {
     "id": 17,
-    "category": "tablet",
     "name": "Tabletă Apple iPad 2022",
     "price": 8699,
     "cashback": 261,
@@ -217,7 +188,6 @@
   },
   {
     "id": 18,
-    "category": "tablet",
     "name": "Tabletă Xiaomi Redmi Pad SE 11",
     "price": 3399,
     "cashback": 102,
@@ -229,7 +199,6 @@
   },
   {
     "id": 19,
-    "category": "tablet",
     "name": "Tabletă Samsung TAB S6 Lite 2022",
     "price": 8190,
     "cashback": 246,
@@ -241,7 +210,6 @@
   },
   {
     "id": 20,
-    "category": "tablet",
     "name": "Tabletă Samsung Tab S9 FE",
     "price": 9899,
     "cashback": 279,
@@ -253,7 +221,6 @@
   },
   {
     "id": 21,
-    "category": "watch",
     "name": "Fitness Tracker Xiaomi Mi Smart Band 8",
     "price": 649,
     "cashback": 22,
@@ -265,7 +232,6 @@
   },
   {
     "id": 22,
-    "category": "watch",
     "name": "Fitness Tracker Xiaomi Mi Band 7 Pro",
     "price": 1299,
     "cashback": 60,
@@ -277,7 +243,6 @@
   },
   {
     "id": 23,
-    "category": "watch",
     "name": "Ceas inteligent Kieslect KR2 Watch Calling",
     "price": 999,
     "cashback": 54,
@@ -289,7 +254,6 @@
   },
   {
     "id": 24,
-    "category": "watch",
     "name": "Ceas inteligent Realme Watch 3 Pro",
     "price": 1799,
     "cashback": 54,
@@ -301,7 +265,6 @@
   },
   {
     "id": 25,
-    "category": "watch",
     "name": "Fitness Tracker Xiaomi Smart Band 8 Pro",
     "price": 1399,
     "cashback": 54,
@@ -313,7 +276,6 @@
   },
   {
     "id": 26,
-    "category": "audio",
     "name": "Căști JBL T500",
     "price": 499,
     "cashback": 30,
@@ -325,8 +287,6 @@
   },
   {
     "id": 27,
-    "category": "audio",
-    "subcategory": "gaming",
     "name": "Căști HyperX Cloud Alpha",
     "price": 3999,
     "cashback": 200,
@@ -338,7 +298,6 @@
   },
   {
     "id": 28,
-    "category": "audio",
     "name": "Căști JBL Tune 115",
     "price": 1599,
     "cashback": 48,
@@ -350,7 +309,6 @@
   },
   {
     "id": 29,
-    "category": "audio",
     "name": "Căști SkullCandy HESH ANC",
     "price": 2599,
     "cashback": 130,
@@ -362,7 +320,6 @@
   },
   {
     "id": 30,
-    "category": "audio",
     "name": "Căști JBL LIVE660BT",
     "price": 2699,
     "cashback": 135,

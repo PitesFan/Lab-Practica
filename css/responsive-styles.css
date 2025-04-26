@@ -236,6 +236,11 @@
     max-height: 180px;
     right: -12px;
   }
+
+  /* Products-section styles */
+  .products-section {
+    grid-template-columns: 16px 1fr 16px;
+  }
 }
 
 @media (max-width: 400px) {
