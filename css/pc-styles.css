@@ -696,6 +696,8 @@ input:focus {
   align-items: start;
   border-radius: 28px;
   padding: 28px;
+  width: 100%;
+  justify-content: center;
 }
 
 .shopping-cart-row.header {
