@@ -360,6 +360,7 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .footer-right-info-column {
@@ -390,8 +391,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 0;
+  padding: 32px;
   border-radius: 24px;
+  width: 100%;
+}
+
+.tile-banner-content h1 {
+  text-align: center;
 }
 
 /* Welcome styles */
@@ -409,6 +415,11 @@ footer {
   align-items: start;
   justify-content: center;
   gap: 32px;
+  flex-wrap: wrap;
+}
+
+.welcome-content h3 {
+  max-width: 300px;
 }
 
 .welcome-img {
@@ -430,6 +441,7 @@ footer {
   align-items: start;
   justify-content: center;
   gap: 32px;
+  flex-wrap: wrap;
 }
 
 .aboutUs-card {

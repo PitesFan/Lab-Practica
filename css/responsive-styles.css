@@ -168,7 +168,7 @@
   }
 
   .tile-banner-content {
-    padding: 28px 0;
+    padding: 16px 4px;
   }
 
   .h1-text {
@@ -177,6 +177,17 @@
 
   /* Products-section styles */
   .products-section {
+    grid-template-columns: 32px 1fr 32px;
+  }
+
+  /* Welcome styles */
+  .welcome-section {
+    grid-template-columns: 32px 1fr 32px;
+  }
+
+  /* About-Us-cards styles */
+
+  .aboutUs-cards-section {
     grid-template-columns: 32px 1fr 32px;
   }
 }
@@ -216,6 +227,15 @@
   .hero-image {
     display: none;
   }
+
+  /* Welcome styles */
+  .welcome-img {
+    max-width: 450px;
+  }
+
+  .h3-text {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -241,7 +261,35 @@
   .products-section {
     display: flex;
   }
+
+  .h1-text {
+    font-size: 32px;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
+  /* Welcome styles */
+  .welcome-img {
+    max-width: 230px;
+  }
+
+  .welcome-section {
+    grid-template-columns: 16px 1fr 16px;
+  }
+
+  /* About-Us-cards styles */
+  .aboutUs-cards-section {
+    grid-template-columns: 16px 1fr 16px;
+  }
+
+  .aboutUs-card {
+    padding: 24px;
+  }
+
+  .aboutUs-card-title {
+    gap: 8px;
+  }
+  .aboutUs-card-title p {
+    font-size: 24px;
+  }
 }
