@@ -107,15 +107,14 @@ header div a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 16px;
 }
 
-main section div h1 {
+.hero-content h1 {
   margin-left: 24px;
   margin-bottom: 20px;
 }
 
-main section div a {
+.hero-content a {
   margin-left: 24px;
 }
 
