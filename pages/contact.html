@@ -87,6 +87,7 @@
                   type="tel"
                   id="phone"
                   name="phone"
+                  pattern="[+]?[0-9\s\-\(\)]+"
                   placeholder="Telefon"
                   required
                 />
@@ -97,6 +98,8 @@
                   type="text"
                   id="name"
                   name="name"
+                  pattern="^[A-Za-zĂÎÂȘȚăîâșț\s]+$"
+                  title="Introduceți doar litere românești și spații"
                   placeholder="Nume"
                   required
                 />

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/pc-styles.css" />
+    <link rel="stylesheet" href="../css/responsive-styles.css" />
+    <link rel="icon" type="image-icon" href="../images/logo.svg" />
+    <title>IT World</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div>
+          <a href="../index.html"><img src="../images/logo.svg" alt="" /></a>
+        </div>
+        <div class="center-nav">
+          <nav>
+            <button id="navToggleBtn" class="nav-toggle">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </button>
+            <ul id="navLinks" class="nav-links">
+              <li><a class="menu-text dark" href="../index.html">Acasă</a></li>
+              <li>
+                <a class="menu-text dark" href="products.html">Produse</a>
+              </li>
+              <li>
+                <a class="menu-text dark" href="about.html">Despre noi</a>
+              </li>
+              <li><a class="menu-text dark" href="blog.html">Blog</a></li>
+              <li>
+                <a class="menu-text dark" href="contact.html">Contact</a>
+              </li>
+              <li class="icon-navbar-phone">
+                <a href="cart.html "
+                  ><div class="icon-cart">
+                    <img class="dark" src="../images/basket.svg" alt="" /><span
+                      class="red-linear menu-text dark"
+                      >0</span
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <a href="cart.html "
+            ><div class="icon-cart">
+              <img class="dark" src="../images/basket.svg" alt="" /><span
+                class="red-linear menu-text dark"
+                >0</span
+              >
+            </div></a
+          >
+        </div>
+      </header>
+      <main>
+        <!-- Checkout section -->
+        <section class="checkout-section">
+          <div class="checkout-container gray-linear">
+            <div class="checkout-personal-details-container dark-linear">
+              <div class="checkout-personal-details-content">
+                <h2 class="h2-text white">Detalii personale</h2>
+                <form
+                  class="personal-details-form"
+                  action="checkout-2.html"
+                  method="get"
+                >
+                  <div class="personal-details-form-row">
+                    <input
+                      class="light-gray-bg button-text"
+                      type="text"
+                      id="person-name"
+                      name="person-last-name"
+                      pattern="^[A-Za-zĂÎÂȘȚăîâșț\s]+$"
+                      title="Introduceți doar litere românești și spații"
+                      placeholder="Nume"
+                      required
+                    />
+                    <input
+                      class="light-gray-bg button-text"
+                      type="text"
+                      id="person-name"
+                      name="person-first-name"
+                      pattern="^[A-Za-zĂÎÂȘȚăîâșț\s]+$"
+                      title="Introduceți doar litere românești și spații"
+                      placeholder="Prenume"
+                      required
+                    />
+                  </div>
+                  <div class="personal-details-form-row">
+                    <div class="label-container light-gray-bg">
+                      <label class="button-text dark-gray" for="country"
+                        >Țara:</label
+                      >
+                      <select
+                        class="light-gray-bg button-text dark-gray"
+                        name="country"
+                        id="country"
+                      >
+                        <option
+                          class="button-text light-gray-bg dark-gray"
+                          value="romania"
+                        >
+                          România
+                        </option>
+                        <option class="button-text dark-gray" value="moldova">
+                          Moldova
+                        </option>
+                      </select>
+                    </div>
+                    <input
+                      class="light-gray-bg button-text"
+                      type="text"
+                      id="person-city-town"
+                      name="person-city-town"
+                      pattern="^[A-Za-zĂÎÂȘȚăîâșț\s]+$"
+                      title="Introduceți doar litere românești și spații"
+                      placeholder="Oraș/Sat"
+                      required
+                    />
+                  </div>
+                  <div class="personal-details-form-row">
+                    <input
+                      class="light-gray-bg button-text"
+                      type="text"
+                      id="person-street"
+                      name="person-street"
+                      placeholder="Strada"
+                      required
+                    />
+                    <input
+                      class="light-gray-bg button-text"
+                      type="text"
+                      id="person-house-number"
+                      name="person-house-number"
+                      placeholder="Număr casă"
+                      required
+                    />
+                  </div>
+                  <div class="personal-details-form-row">
+                    <input
+                      class="light-gray-bg button-text"
+                      type="text"
+                      id="person-apartment"
+                      name="person-apartment"
+                      placeholder="Număr apartament"
+                    />
+                    <input
+                      class="light-gray-bg button-text"
+                      type="text"
+                      id="person-postcode"
+                      name="person-postcode"
+                      pattern="[A-Za-z0-9\s\-]+"
+                      title="Introduceți un cod poștal valid"
+                      placeholder="Cod poștal"
+                      required
+                    />
+                  </div>
+                  <div class="personal-details-form-row">
+                    <input
+                      class="light-gray-bg button-text"
+                      type="email"
+                      id="person-email"
+                      name="person-email"
+                      placeholder="Email"
+                      required
+                    />
+                    <input
+                      class="light-gray-bg button-text"
+                      type="tel"
+                      id="person-phone"
+                      name="person-phone"
+                      pattern="[+]?[0-9\s\-\(\)]+"
+                      placeholder="Telefon"
+                      required
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    class="button button-text white accent-bg"
+                  >
+                    <span>Mergi mai departe</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-bg gray-linear">
+          <div class="footer-content">
+            <div class="footer-left">
+              <div class="footer-left-content">
+                <a href="../index.html"
+                  ><img src="../images/logo.svg" alt=""
+                /></a>
+                <p class="menu-text dark-gray">
+                  Un loc unde tehnologia și inovația se întâlnesc pentru a vă
+                  echipa pentru orice aventură digitală
+                </p>
+              </div>
+              <p class="light-text dark-gray">
+                © IT World 2025 Toate drepturile rezervate
+              </p>
+            </div>
+            <div class="footer-right">
+              <div class="footer-right-info">
+                <div class="footer-right-info-column">
+                  <p class="button-text dark">Despre noi</p>
+                  <a href="blog.html"
+                    ><p class="light-text dark-gray">Blog</p></a
+                  >
+                  <a href="contact.html"
+                    ><p class="light-text dark-gray">Contact</p></a
+                  >
+                </div>
+                <div class="footer-right-info-column">
+                  <p class="button-text dark">Informații suplimentare</p>
+                  <a href="policy.html"
+                    ><p class="light-text dark-gray">
+                      Politica de confidențialitate
+                    </p></a
+                  >
+                </div>
+              </div>
+              <div class="footer-right-links">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="../images/ion_logo-facebook.svg" alt=""
+                /></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img src="../images/mage_instagram-circle.svg" alt=""
+                /></a>
+                <a href="https://www.youtube.com/" target="_blank"
+                  ><img
+                    src="../images/entypo-social_youtube-with-circle.svg"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <p class="dark-green light-text">Made by PitesFan 🐱</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/products.js"></script>
+  </body>
+</html>
