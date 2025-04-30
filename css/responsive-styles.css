@@ -551,7 +551,7 @@
 @media (max-width: 400px) {
   /* Blog styles */
   .blog-article {
-    max-width: 230px;
+    max-width: 300px;
   }
 
   .blog-article img {
