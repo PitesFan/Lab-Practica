@@ -1019,6 +1019,7 @@ input:focus {
   border-radius: 20px;
   width: 50%;
 }
+
 .checkout-personal-details-content {
   display: flex;
   flex-direction: column;
@@ -1094,12 +1095,16 @@ input:focus {
   display: flex;
   flex-direction: row;
   gap: 16px;
+  flex-wrap: wrap;
+  row-gap: 16px;
 }
 
 .select-date-content {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  flex-wrap: wrap;
+  row-gap: 12px;
 }
 
 .select-date-content select {

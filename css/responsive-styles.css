@@ -8,6 +8,14 @@
   .privacy-img {
     width: 800px;
   }
+
+  /* Checkout styles */
+  .checkout-personal-details-container,
+  .checkout-payment-info-container {
+    padding: 28px;
+    border-radius: 20px;
+    width: 60%;
+  }
 }
 
 @media (max-width: 1470px) {
@@ -58,6 +66,14 @@
   .privacy-img {
     width: 500px;
   }
+
+  /* Checkout styles */
+  .checkout-personal-details-container,
+  .checkout-payment-info-container {
+    padding: 28px;
+    border-radius: 20px;
+    width: 70%;
+  }
 }
 
 @media (max-width: 1260px) {
@@ -70,6 +86,14 @@
   .privacy-img {
     width: 400px;
   }
+
+  /* Checkout styles */
+  .checkout-personal-details-container,
+  .checkout-payment-info-container {
+    padding: 28px;
+    border-radius: 20px;
+    width: 80%;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -81,6 +105,14 @@
   /* Policy styles */
   .privacy-img {
     width: 300px;
+  }
+
+  /* Checkout styles */
+  .checkout-personal-details-container,
+  .checkout-payment-info-container {
+    padding: 28px;
+    border-radius: 20px;
+    width: 100%;
   }
 }
 
@@ -278,6 +310,12 @@
   .search-bar {
     margin-top: 90px;
   }
+
+  /* Checkout styles */
+  .checkout-section,
+  .checkout-message-section {
+    grid-template-columns: 32px 1fr 32px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -285,6 +323,8 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  /* Checkout styles */
 }
 
 @media (max-width: 850px) {
@@ -331,6 +371,11 @@
   .h3-text {
     font-size: 20px;
   }
+
+  /* Checkout styles */
+  input {
+    max-width: 500px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -370,6 +415,11 @@
 
   .product-page-content {
     padding: 16px;
+  }
+
+  /* Checkout styles */
+  input {
+    max-width: 400px;
   }
 }
 
@@ -435,6 +485,23 @@
   .product-page-section {
     grid-template-columns: 16px 1fr 16px;
   }
+
+  /* Checkout styles */
+  .checkout-section,
+  .checkout-message-section {
+    grid-template-columns: 16px 1fr 16px;
+  }
+
+  .checkout-container {
+    padding: 16px;
+  }
+
+  .checkout-personal-details-container,
+  .checkout-payment-info-container,
+  .checkout-message-container,
+  .checkout-message-content {
+    padding: 16px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -469,8 +536,18 @@
   .product-page-features {
     width: 300px;
   }
-}
 
+  input,
+  .label-container {
+    max-width: 250px;
+  }
+}
+@media (max-width: 450px) {
+  input,
+  .label-container {
+    max-width: 200px;
+  }
+}
 @media (max-width: 400px) {
   /* Blog styles */
   .blog-article {
