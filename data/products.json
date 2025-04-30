@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Lenovo IdeaPad Gaming 3",
+    "name": "#Laptop #Gaming - Lenovo IdeaPad Gaming 3",
     "price": 13490,
     "cashback": 450,
     "color": "black",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "Lenovo IdeaPad 5",
+    "name": "#Laptop - Lenovo IdeaPad 5",
     "price": 8490,
     "cashback": 255,
     "color": "gray",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "name": "Asus ROG Strix G18",
+    "name": "#Laptop #Gaming - Asus ROG Strix G18",
     "price": 40990,
     "cashback": 1410,
     "color": "gray",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "name": "Acer AN17-42",
+    "name": "#Laptop #Gaming - Acer AN17-42",
     "price": 41490,
     "cashback": 1245,
     "color": "black",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "name": "Apple MacBook Air 13.6 2025",
+    "name": "#Laptop #Apple - Apple MacBook Air 13.6 2025",
     "price": 24790,
     "cashback": 744,
     "color": "blue",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "name": "Calculator de jocuri Navigator",
+    "name": "#PC #Gaming #Computer - Calculator de jocuri Navigator",
     "price": 13999,
     "cashback": 450,
     "color": "black",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "name": "Calculator de jocuri Navigator",
+    "name": "#PC #Gaming #Computer - Calculator de jocuri Navigator",
     "price": 15499,
     "cashback": 525,
     "color": "black",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "name": "Calculator de jocuri Navigator",
+    "name": "#PC #Gaming #Computer - Calculator de jocuri Navigator",
     "price": 18999,
     "cashback": 450,
     "color": "black",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "name": "Calculator de jocuri Navigator",
+    "name": "#PC #Gaming #Computer - Calculator de jocuri Navigator",
     "price": 15999,
     "cashback": 540,
     "color": "black",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "name": "Calculator de jocuri Navigator",
+    "name": "#PC #Gaming #Computer - Calculator de jocuri Navigator",
     "price": 18999,
     "cashback": 470,
     "color": "black",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "name": "Apple iPhone 13",
+    "name": "#Telefon #Apple - Apple iPhone 13",
     "price": 11999,
     "cashback": 360,
     "color": "blue",
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "name": "Apple iPhone 12",
+    "name": "#Telefon #Apple - Apple iPhone 12",
     "price": 9999,
     "cashback": 360,
     "color": "white",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "name": "Apple iPhone 15",
+    "name": "#Telefon #Apple - Apple iPhone 15",
     "price": 14499,
     "cashback": 525,
     "color": "blue",
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "name": "Samsung Galaxy S21 FE",
+    "name": "#Telefon - Samsung Galaxy S21 FE",
     "price": 12499,
     "cashback": 375,
     "color": "gray",
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "name": "Xiaomi Redmi Note 13 Pro+",
+    "name": "#Telefon - Xiaomi Redmi Note 13 Pro+",
     "price": 6999,
     "cashback": 210,
     "color": "black",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "name": "Tabletă Lenovo Tab M10",
+    "name": "#Tabletă - Tabletă Lenovo Tab M10",
     "price": 3290,
     "cashback": 99,
     "color": "gray",
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "name": "Tabletă Apple iPad 2022",
+    "name": "#Tabletă #Apple - Tabletă Apple iPad 2022",
     "price": 8699,
     "cashback": 261,
     "color": "blue",
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "name": "Tabletă Xiaomi Redmi Pad SE 11",
+    "name": "#Tabletă - Tabletă Xiaomi Redmi Pad SE 11",
     "price": 3399,
     "cashback": 102,
     "color": "gray",
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "name": "Tabletă Samsung TAB S6 Lite 2022",
+    "name": "#Tabletă - Tabletă Samsung TAB S6 Lite 2022",
     "price": 8190,
     "cashback": 246,
     "color": "blue",
@@ -210,7 +210,7 @@
   },
   {
     "id": 20,
-    "name": "Tabletă Samsung Tab S9 FE",
+    "name": "#Tabletă - Tabletă Samsung Tab S9 FE",
     "price": 9899,
     "cashback": 279,
     "color": "gray",
@@ -221,7 +221,7 @@
   },
   {
     "id": 21,
-    "name": "Fitness Tracker Xiaomi Mi Smart Band 8",
+    "name": "#Ceas - Fitness Tracker Xiaomi Mi Smart Band 8",
     "price": 649,
     "cashback": 22,
     "color": "black",
@@ -232,7 +232,7 @@
   },
   {
     "id": 22,
-    "name": "Fitness Tracker Xiaomi Mi Band 7 Pro",
+    "name": "#Ceas - Fitness Tracker Xiaomi Mi Band 7 Pro",
     "price": 1299,
     "cashback": 60,
     "color": "black",
@@ -243,7 +243,7 @@
   },
   {
     "id": 23,
-    "name": "Ceas inteligent Kieslect KR2 Watch Calling",
+    "name": "#Ceas - Ceas inteligent Kieslect KR2 Watch Calling",
     "price": 999,
     "cashback": 54,
     "color": "black",
@@ -254,7 +254,7 @@
   },
   {
     "id": 24,
-    "name": "Ceas inteligent Realme Watch 3 Pro",
+    "name": "#Ceas - Ceas inteligent Realme Watch 3 Pro",
     "price": 1799,
     "cashback": 54,
     "color": "black",
@@ -265,7 +265,7 @@
   },
   {
     "id": 25,
-    "name": "Fitness Tracker Xiaomi Smart Band 8 Pro",
+    "name": "#Ceas - Fitness Tracker Xiaomi Smart Band 8 Pro",
     "price": 1399,
     "cashback": 54,
     "color": "black",
@@ -276,7 +276,7 @@
   },
   {
     "id": 26,
-    "name": "Căști JBL T500",
+    "name": "#Căști #Audio - Căști JBL T500",
     "price": 499,
     "cashback": 30,
     "color": "black",
@@ -287,7 +287,7 @@
   },
   {
     "id": 27,
-    "name": "Căști HyperX Cloud Alpha",
+    "name": "#Căști #Audio - Căști HyperX Cloud Alpha",
     "price": 3999,
     "cashback": 200,
     "color": "black",
@@ -298,7 +298,7 @@
   },
   {
     "id": 28,
-    "name": "Căști JBL Tune 115",
+    "name": "#Căști #Audio - Căști JBL Tune 115",
     "price": 1599,
     "cashback": 48,
     "color": "white",
@@ -309,7 +309,7 @@
   },
   {
     "id": 29,
-    "name": "Căști SkullCandy HESH ANC",
+    "name": "#Căști #Audio - Căști SkullCandy HESH ANC",
     "price": 2599,
     "cashback": 130,
     "color": "black",
@@ -320,7 +320,7 @@
   },
   {
     "id": 30,
-    "name": "Căști JBL LIVE660BT",
+    "name": "#Căști #Audio - Căști JBL LIVE660BT",
     "price": 2699,
     "cashback": 135,
     "color": "blue",

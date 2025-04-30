@@ -274,6 +274,10 @@
   .product-page-content {
     padding: 28px 32px;
   }
+
+  .search-bar {
+    margin-top: 90px;
+  }
 }
 
 @media (max-width: 900px) {

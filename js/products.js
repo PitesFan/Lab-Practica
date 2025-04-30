@@ -1,8 +1,15 @@
 const productContainer = document.querySelector(".product-cards");
+const searchInput = document.getElementById("search");
+let allProducts = [];
+
+function removeDiacritics(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
 
 async function fetchProducts() {
   const res = await fetch("../data/products.json");
   const products = await res.json();
+  allProducts = products;
   if (productContainer) {
     displayProducts(products);
   }
@@ -86,4 +93,15 @@ function addToCart(id) {
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchProducts();
+});
+
+searchInput.addEventListener("input", function () {
+  const searchTerm = removeDiacritics(searchInput.value.toLowerCase());
+  const filteredProducts = allProducts.filter((product) => {
+    const productNameWithoutDiacritics = removeDiacritics(
+      product.name.toLowerCase()
+    );
+    return productNameWithoutDiacritics.includes(searchTerm);
+  });
+  displayProducts(filteredProducts);
 });

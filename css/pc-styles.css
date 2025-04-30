@@ -87,6 +87,10 @@ header div a {
   display: none;
 }
 
+.search-bar {
+  justify-self: center;
+}
+
 /* Hero-section styles */
 
 .hero-section {
