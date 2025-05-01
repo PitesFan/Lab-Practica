@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="product-page-view">
                   <h2 class="h2-text dark" id="product-name">${selectedProduct.name}</h2>
                   <div class="product-view-content">
-                    <div class="product-view-image white-bg">
+                    <div class="product-view-image white-bg card-effect">
                       <img id="product-image" src="../${selectedProduct.image}" alt="${selectedProduct.name}" />
                     </div>
-                    <div class="product-view-description dark-gray-bg">
+                    <div class="product-view-description dark-gray-bg card-effect">
                       <h3 class="h3-text accent" id="product-price">${selectedProduct.price} MDL</h3>
                       <button
                         type="button"
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <div class="product-page-features">
                   <h2 class="h2-text dark">Specificații</h2>
-                  <div class="product-page-features-content dark-gray-bg">
+                  <div class="product-page-features-content dark-gray-bg card-effect">
                     <h3 class="h3-text white">General</h3>
                     <div class="product-page-features-list">
                       <div class="product-page-feature">

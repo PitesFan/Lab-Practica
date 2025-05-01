@@ -37,6 +37,18 @@ a {
   transform: scaleX(1);
 }
 
+/* Efect carduri */
+
+.card-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card-effect:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
 /* Stiluri butoane */
 
 .button {

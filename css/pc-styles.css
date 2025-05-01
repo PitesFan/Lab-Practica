@@ -248,6 +248,8 @@ header div a {
   align-items: center;
   gap: 16px;
   width: 270px;
+  border-radius: 16px;
+  padding: 8px;
 }
 
 .customer-advantages-card-content {
@@ -274,6 +276,7 @@ header div a {
   padding: 36px;
   border-radius: 24px;
   justify-content: space-between;
+  overflow: visible;
 }
 
 .main-banner-image {
@@ -290,7 +293,7 @@ header div a {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .main-banner-offer {

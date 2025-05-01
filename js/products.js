@@ -20,7 +20,7 @@ function displayProducts(products) {
 
   products.forEach((product) => {
     const card = document.createElement("div");
-    card.classList.add("product-card", "dark-gray-bg");
+    card.classList.add("product-card", "dark-gray-bg", "card-effect");
     card.innerHTML = `
         <div class="product-card-image light-gray-bg">
           <img src="../${product.image}" alt="${product.name}" />
